@@ -1,5 +1,4 @@
 <script>
-	export let name;
 	import Game from './Game.svelte';
 </script>
 
