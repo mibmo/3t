@@ -1,30 +1,42 @@
 <script>
 	export let name;
+	import Game from './Game.svelte';
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<header>
+		<h1>3t</h1>
+	</header>
+
+	<article>
+		<Game/>
+	</article>
+
 </main>
 
 <style>
-	main {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
 	@media (min-width: 640px) {
 		main {
 			max-width: none;
 		}
+	}
+
+	header {
+		display: flex;
+		justify-content: center;
+		border-bottom: 2px solid black;
+	}
+
+	header > h1 {
+		font-family: 'InconsolataLGCRegular';
+		font-weight: 500;
+		font-size: 32pt;
+	}
+
+	article {
+		text-align: center;
+		padding: 1em;
+		max-width: 240px;
+		margin: 0 auto;
 	}
 </style>
