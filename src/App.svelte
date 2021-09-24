@@ -7,9 +7,9 @@
 		<h1>3t</h1>
 	</header>
 
-	<article>
+	<div class="game">
 		<Game/>
-	</article>
+	</div>
 
 </main>
 
@@ -32,10 +32,9 @@
 		font-size: 32pt;
 	}
 
-	article {
-		text-align: center;
-		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
+	.game {
+		height: 30vw;
+		width: 30%;
+		border: 0.1rem solid black;
 	}
 </style>
