@@ -11,6 +11,9 @@
 		<Game/>
 	</div>
 
+	<footer>
+		Footer
+	</footer>
 </main>
 
 <style>
@@ -23,13 +26,21 @@
 	header {
 		display: flex;
 		justify-content: center;
-		border-bottom: 2px solid black;
+		width: 100%;
+		border-bottom: 0.2vh solid black;
+		margin-bottom: 3vh;
 	}
 
 	header > h1 {
 		font-family: 'InconsolataLGCRegular';
 		font-weight: 500;
 		font-size: 32pt;
+	}
+
+	footer {
+		display: flex;
+		place-content: center;
+		margin-top: 5vh;
 	}
 
 	.game {
