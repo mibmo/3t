@@ -17,6 +17,13 @@
 </main>
 
 <style>
+	main {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		height: screen;
+		width: screen;
+	}
 
 	header {
 		display: flex;
