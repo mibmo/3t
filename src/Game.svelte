@@ -23,8 +23,8 @@
 </script>
 
 <div id="grid">
-	{#each cells as cell}
-		<div class="cell">{cell}</div>
+	{#each cells as _, i}
+		<Cell assignment="{i}" />
 	{/each}
 </div>
 
