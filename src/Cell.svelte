@@ -1,7 +1,11 @@
 <script>
-
+	let assignment;
 </script>
 
-<div>
-	abc
+<div class="cell">
+	{assignment}
 </div>
+
+<style>
+	.cell {}
+</style>
