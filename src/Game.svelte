@@ -35,15 +35,4 @@
 		display: grid;
 		grid-template-columns: repeat(3, minmax(0, 1fr));
 	}
-	
-	.cell {
-		height: 100%;
-		width: 100%;
-		display: flex;
-		background-color: #fff;
-	}
-	
-	.cell:nth-child(odd) {
-		background-color: #eee;
-	}
 </style>

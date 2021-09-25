@@ -7,5 +7,14 @@
 </div>
 
 <style>
-	.cell {}
+	.cell {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		background-color: #fff;
+	}
+	
+	.cell:nth-child(odd) {
+		background-color: #eee;
+	}
 </style>
