@@ -12,12 +12,10 @@
 				cells = [...cells, cell];
 			}
 		}
-
-		document.getElementById('grid').style['grid-template-columns'] = `repeat(${gridSize}, minmax(0, 1fr))`;
 	});
 </script>
 
-<div id="grid">
+<div id="grid" style="grid-template-columns: repeat({gridSize}, minmax(0, 1fr))">
 	{#each cells as _, i}
 		<Cell x={(i % gridSize) + 1} y={Math.floor(i/gridSize)+1} assignment={i} />
 	{/each}
